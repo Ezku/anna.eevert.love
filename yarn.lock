@@ -6022,7 +6022,7 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-react-typography@^0.16.1:
+react-typography@^0.16.1, react-typography@^0.16.5:
   version "0.16.5"
   resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.16.5.tgz#86e539430e0efb3a326c9de20d9e3a32662a2a6b"
 
@@ -7325,6 +7325,12 @@ type-of@^2.0.1:
 typography-normalize@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.14.0.tgz#1d77c1fe2aaf4a51b3673c4c85c85a65a2d4b573"
+
+typography-theme-us-web-design-standards@^0.16.9:
+  version "0.16.9"
+  resolved "https://registry.yarnpkg.com/typography-theme-us-web-design-standards/-/typography-theme-us-web-design-standards-0.16.9.tgz#19e13fb0540010437889460a6148b2128f718fa0"
+  dependencies:
+    gray-percentage "^2.0.0"
 
 typography@^0.16.0:
   version "0.16.6"
