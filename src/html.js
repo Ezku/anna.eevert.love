@@ -1,9 +1,6 @@
 import React from 'react'
-import Typography from 'typography'
-import usWebDesignStandardsTheme from 'typography-theme-us-web-design-standards'
 import { TypographyStyle, GoogleFont } from 'react-typography'
-
-const typography = new Typography(usWebDesignStandardsTheme)
+import typography from './utils/typography'
 
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
