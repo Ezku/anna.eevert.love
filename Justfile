@@ -11,5 +11,5 @@ dev:
 build:
   gatsby build
 
-deploy:
+deploy: build
   surge --project {{build_path}} --domain {{domain}}
