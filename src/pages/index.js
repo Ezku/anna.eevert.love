@@ -17,6 +17,6 @@ export default () => (
         </p>
       </blockquote>
     </div>
-    <p>Posted April 09, 2011</p>
+    <p>Posted April 09, 2011 åååöööäääÅÅÖÖÖÄÄ</p>
   </div>
 )
