@@ -1,18 +1,21 @@
 
 build_path = 'public'
-domain = 'anna.eevert.love'
+site_id = 'anna-eevert-love'
 
 default:
   just -l
 
 install:
-  npm install -g gatsby-cli surge
+  npm install -g gatsby-cli netlify-cli
 
 dev:
   gatsby develop
 
-build:
+clean:
+  rm -rf {{build_path}}/*
+
+build: clean
   gatsby build
 
 deploy: build
-  surge --project {{build_path}} --domain {{domain}}
+  netlify deploy --path {{build_path}} --site-id {{site_id}}
