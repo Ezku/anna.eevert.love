@@ -1,5 +1,5 @@
 import React from 'react'
 
 export default function Rsvp() {
-  return <div id="rsvp">rsvp pls</div>
+  return <div>rsvp pls</div>
 }
