@@ -11,7 +11,7 @@ const typography = new Typography({
     },
     {
       name: 'Overpass Mono',
-      styles: ['300', '500'],
+      styles: ['300', '500', '700'],
     },
   ],
   headerFontFamily: ['Playfair Display', 'serif'],
