@@ -9,13 +9,13 @@ const Footer = glamorous.footer({})
 const Background = glamorous.div({
   backgroundColor: 'rgba(0,0,0,0.88)',
   borderTop: '3px double white',
-  paddingTop: `${scale(4 + 3) / 2 - 3}px`,
+  paddingTop: `${scale(9) / 2 - 3}px`,
   minHeight: '100vh',
 })
 
 const Header = glamorous.header({
   textAlign: 'center',
-  marginBottom: `-${scale(4 + 3) / 2 - 3}px`,
+  marginBottom: `-${scale(9) / 2 - 3}px`,
 })
 
 const H2 = glamorous.h2({
