@@ -7,6 +7,7 @@ import scale from '../utils/scale'
 const Background = glamorous.div({
   background: 'white',
   boxShadow: '0 1px rgba(0, 0, 0, 0.1), 0 2px rgba(0, 0, 0, 0.05)',
+  marginBottom: '2px',
 })
 
 const Content = glamorous.div({
