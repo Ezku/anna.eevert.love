@@ -46,7 +46,7 @@ const SecondaryLink = glamorous(Link)({
   borderBottom: '3px double black',
   fontSize: `${scale(1)}px`,
   lineHeight: `${scale(3)}px`,
-  marginLeft: '1rem',
+  margin: `0 ${scale(1) / 2}px`,
 })
 
 const Header = () => (
