@@ -6,6 +6,10 @@ import scale from '../../utils/scale'
 
 import hero from './rsvp-hero.jpg'
 
+const Section = glamorous.section({
+  minHeight: '100vh',
+})
+
 const HeroContainer = glamorous.div({
   minHeight: '256px',
   height: '50vw',
@@ -32,11 +36,11 @@ const H2 = glamorous.h2({
 
 export default function Rsvp() {
   return (
-    <section>
+    <Section>
       <HeroContainer />
       <Header>
         <H2>RSVP</H2>
       </Header>
-    </section>
+    </Section>
   )
 }

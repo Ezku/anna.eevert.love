@@ -10,7 +10,7 @@ const Background = glamorous.div({
   backgroundColor: 'rgba(0,0,0,0.88)',
   borderTop: '3px double white',
   paddingTop: `${scale(4 + 3) / 2 - 3}px`,
-  minHeight: '256px',
+  minHeight: '100vh',
 })
 
 const Header = glamorous.header({
