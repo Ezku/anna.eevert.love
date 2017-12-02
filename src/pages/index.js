@@ -7,7 +7,7 @@ import Header from '../components/Header'
 export default () => (
   <div>
     <Header />
-    <Rsvp id="rsvp" />
-    <Contact id="yhteystiedot" />
+    <Rsvp />
+    <Contact />
   </div>
 )

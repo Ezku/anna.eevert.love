@@ -34,7 +34,7 @@ const Section = glamorous.section({
 
 export default function Contact() {
   return (
-    <Footer>
+    <Footer id="yhteystiedot">
       <Header>
         <H2>Yhteystiedot</H2>
       </Header>

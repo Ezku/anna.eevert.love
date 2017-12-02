@@ -36,7 +36,7 @@ const H2 = glamorous.h2({
 
 export default function Rsvp() {
   return (
-    <Section>
+    <Section id="rsvp">
       <HeroContainer />
       <Header>
         <H2>RSVP</H2>
