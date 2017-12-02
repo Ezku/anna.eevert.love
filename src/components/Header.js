@@ -30,7 +30,7 @@ const MainLink = glamorous(Link)({
   lineHeight: `${scale(3)}px`,
 })
 
-const SecondaryLink = glamorous.a({
+const SecondaryLink = glamorous(Link)({
   color: 'rgba(0, 0, 0, 0.8)',
   textDecoration: 'none',
   ':visited': {
@@ -50,7 +50,8 @@ const Header = () => (
       <Content>
         <Home>
           <MainLink to="/">anna.eevert.love</MainLink>
-          <SecondaryLink href="#rsvp">RSVP</SecondaryLink>
+          <SecondaryLink to="/#rsvp">RSVP</SecondaryLink>
+          <SecondaryLink to="/#yhteystiedot">Yhteystiedot</SecondaryLink>
         </Home>
       </Content>
     </Background>
