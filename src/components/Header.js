@@ -13,6 +13,7 @@ const Content = glamorous.div({
   margin: '0 auto',
   maxWidth: 960,
   padding: `${scale(0)}px ${scale(0)}px`,
+  textAlign: 'center',
 })
 
 const Home = glamorous.h1({
@@ -28,6 +29,10 @@ const MainLink = glamorous(Link)({
   },
   fontSize: `${scale(2)}px`,
   lineHeight: `${scale(3)}px`,
+})
+
+const Nav = glamorous.nav({
+  marginBottom: `-${scale(1) - 1}px`,
 })
 
 const SecondaryLink = glamorous(Link)({
@@ -50,9 +55,11 @@ const Header = () => (
       <Content>
         <Home>
           <MainLink to="/">anna.eevert.love</MainLink>
+        </Home>
+        <Nav>
           <SecondaryLink to="/#rsvp">RSVP</SecondaryLink>
           <SecondaryLink to="/#yhteystiedot">Yhteystiedot</SecondaryLink>
-        </Home>
+        </Nav>
       </Content>
     </Background>
   </Headroom>
