@@ -19,7 +19,7 @@ const Content = glamorous.div({
 
 const Home = glamorous.h1({
   margin: 0,
-  fontSize: '1rem',
+  marginBottom: `${scale(0)}px`,
 })
 
 const MainLink = glamorous(Link)({
@@ -28,8 +28,8 @@ const MainLink = glamorous(Link)({
   ':visited': {
     color: '#28a745',
   },
-  fontSize: `${scale(2)}px`,
-  lineHeight: `${scale(3)}px`,
+  fontSize: `${scale(3)}px`,
+  lineHeight: `${scale(4)}px`,
 })
 
 const Nav = glamorous.nav({

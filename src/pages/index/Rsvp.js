@@ -8,8 +8,8 @@ import hero from './rsvp-hero.jpg'
 
 const Section = glamorous.section({
   // Match Headroom elementheight
-  paddingTop: '81px',
-  marginTop: '-81px',
+  paddingTop: '117px',
+  marginTop: '-117px',
   minHeight: '100vh',
 })
 
