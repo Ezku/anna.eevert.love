@@ -55,7 +55,9 @@ const Header = () => (
     <Background>
       <Content>
         <Home>
-          <MainLink to="/">anna.eevert.love</MainLink>
+          <MainLink to="/">
+            anna <small>&#x2764;</small> eevert
+          </MainLink>
         </Home>
         <Nav>
           <SecondaryLink to="/#rsvp">RSVP</SecondaryLink>
