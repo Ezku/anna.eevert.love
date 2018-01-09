@@ -4,7 +4,7 @@ import glamorous from 'glamorous'
 import Content from '../../components/Content'
 import scale from '../../utils/scale'
 
-import hero from './rsvp-hero.jpg'
+import hero from './rsvp-hero-color.jpg'
 
 const Section = glamorous.section({
   // Match Headroom elementheight
