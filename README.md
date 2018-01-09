@@ -9,10 +9,16 @@ Requirements
 - `nvm` (`brew install nvm`)
 - `just` (`brew install just`)
 
-Install dependencies:
+Install command line tools:
 
 ```
 just install
+```
+
+Install node dependencies:
+
+```
+yarn
 ```
 
 Start development:
