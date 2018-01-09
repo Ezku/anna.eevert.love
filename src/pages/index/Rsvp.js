@@ -79,12 +79,12 @@ export default function Rsvp() {
         </Row>
         <Row justifyContent="center">
           <RsvpColumn span={{ sm: 6/12, md: 5/12 }}>
-            <ButtonLink href="https://paiva.rsvp.anna.eevert.love">
+            <ButtonLink href="http://paiva.rsvp.anna.eevert.love">
               Ilmoittaudun päiväjuhlaan
             </ButtonLink>
           </RsvpColumn>
           <RsvpColumn span={{ sm: 6/12, md: 5/12 }}>
-            <ButtonLink href="https://ilta.rsvp.anna.eevert.love">
+            <ButtonLink href="http://ilta.rsvp.anna.eevert.love">
               Ilmoittaudun iltajuhlaan
             </ButtonLink>
           </RsvpColumn>
