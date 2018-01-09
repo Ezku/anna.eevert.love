@@ -1,13 +1,22 @@
-# gatsby-starter-default
-The default Gatsby starter
+# [anna.eevert.love](https://anna.eevert.love)
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/sites/anna-eevert-love)
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+## Getting started
+
+Requirements
+
+- `nvm` (`brew install nvm`)
+- `just` (`brew install just`)
+
+Install dependencies:
+
 ```
-gatsby new gatsby-example-site
+just install
 ```
 
-## Deploy
+Start development:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+```
+just dev
+```
