@@ -6,7 +6,7 @@ default:
   just -l
 
 install:
-  npm install -g gatsby-cli netlify-cli
+  npm install -g gatsby-cli netlify-cli yarn
 
 dev:
   gatsby develop
