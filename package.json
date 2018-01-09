@@ -10,6 +10,7 @@
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-typography": "^1.7.10",
     "glamorous": "^4.11.0",
+    "glamorous-grid": "^1.0.2",
     "react-headroom": "^2.2.2",
     "react-typography": "^0.16.5"
   },
