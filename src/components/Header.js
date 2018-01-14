@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Headroom from 'react-headroom'
 import glamorous from 'glamorous'
 import scale from '../utils/scale'
-import { narrow, normal } from '../utils/breakpoints'
+import { headers } from '../utils/typography'
 
 const Background = glamorous.div({
   background: 'white',
@@ -21,25 +21,15 @@ const Content = glamorous.div({
 const Home = glamorous.h1({
   margin: 0,
   marginBottom: `${scale(0)}px`,
-})
+}, ...headers.h1)
 
 const MainLink = glamorous(Link)({
   color: 'rgba(0, 0, 0, 0.8)',
   textDecoration: 'none',
   ':visited': {
     color: 'rgba(0, 0, 0, 0.8)',
-  },
-  fontSize: `${scale(3)}px`,
-  lineHeight: `${scale(4)}px`
-}, narrow(bp => ({
-  fontSize: `${scale(4)}px`,
-  lineHeight: `${scale(5)}px`,
-  })
-), normal(bp => ({
-  fontSize: `${scale(5)}px`,
-  lineHeight: `${scale(6)}px`,
-  })
-))
+  }
+})
 
 const Nav = glamorous.nav({
   marginBottom: `-${scale(1) - 1}px`,

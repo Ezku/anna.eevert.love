@@ -1,5 +1,8 @@
 import Typography from 'typography'
 
+import scale from './scale'
+import { narrow, normal } from './breakpoints'
+
 const typography = new Typography({
   baseFontSize: '16px',
   baseLineHeight: 1.648,
@@ -29,5 +32,22 @@ const typography = new Typography({
     },
   }),
 })
+
+export const headers = {
+  h1: [
+    {
+      fontSize: `${scale(3)}px`,
+      lineHeight: `${scale(4)}px`
+    }, narrow(bp => ({
+      fontSize: `${scale(4)}px`,
+      lineHeight: `${scale(5)}px`,
+      })
+    ), normal(bp => ({
+      fontSize: `${scale(5)}px`,
+      lineHeight: `${scale(6)}px`,
+      })
+    )
+  ]
+}
 
 export default typography
