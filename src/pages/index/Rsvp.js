@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'glamorous-grid'
 
 import Content from '../../components/Content'
 import scale from '../../utils/scale'
+import { headers } from '../../utils/typography'
 
 import hero from './rsvp-hero-color.jpg'
 
@@ -32,12 +33,10 @@ const Header = glamorous.header({
 
 const H2 = glamorous.h2({
   display: 'inline-block',
-  fontSize: `${scale(4)}px`,
-  lineHeight: `${scale(4)}px`,
   background: 'white',
   padding: `${scale(1)}px ${scale(0)}px`,
   border: '3px double black',
-})
+}, ...headers.h2)
 
 const Lede = glamorous.p({
   marginBottom: `${scale(0)}px`

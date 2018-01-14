@@ -3,6 +3,7 @@ import glamorous from 'glamorous'
 
 import Content from '../../components/Content'
 import scale from '../../utils/scale'
+import { headers } from '../../utils/typography'
 
 const Footer = glamorous.footer({})
 
@@ -20,12 +21,10 @@ const Header = glamorous.header({
 
 const H2 = glamorous.h2({
   display: 'inline-block',
-  fontSize: `${scale(4)}px`,
-  lineHeight: `${scale(4)}px`,
   background: 'white',
   padding: `${scale(1)}px ${scale(0)}px`,
   border: '3px double black',
-})
+}, ...headers.h2)
 
 const Section = glamorous.section({
   color: '#f8f9fa',
