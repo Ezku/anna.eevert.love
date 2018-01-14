@@ -4,17 +4,27 @@ import { Container, Row, Col } from 'glamorous-grid'
 
 import Content from '../../components/Content'
 import scale from '../../utils/scale'
+import { narrow, normal } from '../../utils/breakpoints'
 import { headers } from '../../utils/typography'
 
 import hero from './rsvp-hero-color.jpg'
 
 const Section = glamorous.section({
-  // Match Headroom elementheight
-  paddingTop: '135px',
-  marginTop: '-135px',
   minHeight: '100vh',
-  paddingBottom: `${scale(5)}px`
-})
+  paddingBottom: `${scale(5)}px`,
+  // Match Headroom elementheight
+  paddingTop: '107px',
+  marginTop: '-107px',
+},
+  narrow(bp => ({
+    paddingTop: '119px',
+    marginTop: '-119px',
+  })),
+  normal(bp => ({
+    paddingTop: '135px',
+    marginTop: '-135px',
+  })),
+)
 
 const HeroContainer = glamorous.div({
   minHeight: '256px',
