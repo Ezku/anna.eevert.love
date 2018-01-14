@@ -57,6 +57,9 @@ const ButtonLink = glamorous.a({
   transition: 'box-shadow ease-out 0.166s',
   ':hover': {
     boxShadow: '0 2px 6px 0 hsla(0,0%,4%,.2), 0 0 10px 0 hsla(0,0%,4%,.1)',
+  },
+  ':visited, :active, :focus': {
+    color: 'rgba(0, 0, 0, 0.8)'
   }
 })
 
