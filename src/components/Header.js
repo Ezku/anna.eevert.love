@@ -23,13 +23,13 @@ const Home = glamorous.h1({
 })
 
 const MainLink = glamorous(Link)({
-  color: '#28a745',
+  color: 'rgba(0, 0, 0, 0.8)',
   textDecoration: 'none',
   ':visited': {
-    color: '#28a745',
+    color: 'rgba(0, 0, 0, 0.8)',
   },
-  fontSize: `${scale(3)}px`,
-  lineHeight: `${scale(4)}px`,
+  fontSize: `${scale(5)}px`,
+  lineHeight: `${scale(6)}px`,
 })
 
 const Nav = glamorous.nav({
@@ -56,7 +56,7 @@ const Header = () => (
       <Content>
         <Home>
           <MainLink to="/">
-            anna <small>&#x2764;</small> eevert
+            Anna & Eevert
           </MainLink>
         </Home>
         <Nav>
