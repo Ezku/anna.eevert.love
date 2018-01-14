@@ -61,6 +61,20 @@ export const headers = {
       lineHeight: `${scale(4)}px`,
       })
     )
+  ],
+  h3: [
+    {
+      fontSize: `${scale(1)}px`,
+      lineHeight: `${scale(2)}px`
+    }, narrow(bp => ({
+      fontSize: `${scale(2)}px`,
+      lineHeight: `${scale(3)}px`,
+      })
+    ), normal(bp => ({
+      fontSize: `${scale(3)}px`,
+      lineHeight: `${scale(4)}px`,
+      })
+    )
   ]
 }
 
