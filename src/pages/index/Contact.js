@@ -1,5 +1,6 @@
 import React from 'react'
 import glamorous from 'glamorous'
+import { Container, Row, Col } from 'glamorous-grid'
 
 import Content from '../../components/Content'
 import scale from '../../utils/scale'
@@ -8,7 +9,7 @@ import { headers } from '../../utils/typography'
 const Footer = glamorous.footer({})
 
 const Background = glamorous.div({
-  backgroundColor: 'rgba(0,0,0,0.88)',
+  backgroundColor: '#212121',
   borderTop: '3px double white',
   paddingTop: `${scale(9) / 2 - 3}px`,
   minHeight: '100vh',
@@ -31,6 +32,25 @@ const Section = glamorous.section({
   letterSpacing: '2px',
 })
 
+const H3 = glamorous.h3({
+  display: 'block',
+  padding: `${scale(-3)}px ${scale(-5)}px`,
+  borderBottom: '3px double black',
+  marginBottom: `${scale(0)}px`
+}, ...headers.h3)
+
+const ContactColumn = glamorous(Col)({
+  margin: `${scale(0)}px ${scale(0)}px`,
+  background: 'white',
+  color: 'rgba(0, 0, 0, 0.8)',
+  borderRadius: '3px',
+  boxShadow: '0 5px 15px 0 hsla(0,0%,4%,.9), 0 0 15px 0 hsla(0,0%,4%,.45)',
+})
+
+const P = glamorous.p({
+  marginBottom: `${scale(1)}px`
+})
+
 export default function Contact() {
   return (
     <Footer id="yhteystiedot">
@@ -38,7 +58,20 @@ export default function Contact() {
         <H2>Yhteystiedot</H2>
       </Header>
       <Background>
-        <Content />
+        <Content>
+          <Container>
+            <Row justifyContent="center">
+              <ContactColumn span={{ sm: 10/12, md: 5/12 }}>
+                <H3>Hääpari</H3>
+                <P>Juttuihin X ja Y koskevissa tiedusteluissa ota yhteyttä</P>
+              </ContactColumn>
+              <ContactColumn span={{ sm: 10/12, md: 5/12 }}>
+                <H3>Hääesikunta</H3>
+                <P>Juttuihin Z tai W koskevissa tiedusteluissa ota yhteyttä</P>
+              </ContactColumn>
+            </Row>
+          </Container>
+        </Content>
       </Background>
     </Footer>
   )
