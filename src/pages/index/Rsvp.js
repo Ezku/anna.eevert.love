@@ -9,21 +9,22 @@ import { headers } from '../../utils/typography'
 
 import hero from './rsvp-hero-color.jpg'
 
-const Section = glamorous.section({
-  minHeight: '100vh',
-  paddingBottom: `${scale(5)}px`,
-  // Match Headroom elementheight
-  paddingTop: '109px',
-  marginTop: '-109px',
-},
+const Section = glamorous.section(
+  {
+    minHeight: '100vh',
+    paddingBottom: `${scale(5)}px`,
+    // Match Headroom elementheight
+    paddingTop: '110px',
+    marginTop: '-110px',
+  },
   narrow(bp => ({
-    paddingTop: '121px',
-    marginTop: '-121px',
+    paddingTop: '122px',
+    marginTop: '-122px',
   })),
   normal(bp => ({
-    paddingTop: '137px',
-    marginTop: '-137px',
-  })),
+    paddingTop: '138px',
+    marginTop: '-138px',
+  }))
 )
 
 const HeroContainer = glamorous.div({
@@ -41,15 +42,18 @@ const Header = glamorous.header({
   marginTop: `-${3 + scale(4 + 2 + 1) / 2}px`,
 })
 
-const H2 = glamorous.h2({
-  display: 'inline-block',
-  background: 'white',
-  padding: `${scale(1)}px ${scale(0)}px`,
-  border: '3px double black',
-}, ...headers.h2)
+const H2 = glamorous.h2(
+  {
+    display: 'inline-block',
+    background: 'white',
+    padding: `${scale(1)}px ${scale(0)}px`,
+    border: '3px double black',
+  },
+  ...headers.h2
+)
 
 const Lede = glamorous.p({
-  marginBottom: `${scale(0)}px`
+  marginBottom: `${scale(0)}px`,
 })
 
 const ButtonLink = glamorous.a({
@@ -68,12 +72,12 @@ const ButtonLink = glamorous.a({
     boxShadow: '0 2px 6px 0 hsla(0,0%,4%,.2), 0 0 10px 0 hsla(0,0%,4%,.1)',
   },
   ':visited, :active, :focus': {
-    color: 'rgba(0, 0, 0, 0.8)'
-  }
+    color: 'rgba(0, 0, 0, 0.8)',
+  },
 })
 
 const RsvpColumn = glamorous(Col)({
-  textAlign: 'center'
+  textAlign: 'center',
 })
 
 export default function Rsvp() {
@@ -85,17 +89,19 @@ export default function Rsvp() {
       </Header>
       <Container>
         <Row justifyContent="center">
-          <RsvpColumn span={{ xs: 1, md: 8/12, lg: 6/12 }}>
-            <Lede>Oletko saapumassa päiväjuhlaan (alkaen klo 14) vai iltajuhlaan (alkaen klo 19)?</Lede>
+          <RsvpColumn span={{ xs: 1, md: 8 / 12, lg: 6 / 12 }}>
+            <Lede>
+              Oletko saapumassa päiväjuhlaan (alkaen klo 14) vai iltajuhlaan (alkaen klo 19)?
+            </Lede>
           </RsvpColumn>
         </Row>
         <Row justifyContent="center">
-          <RsvpColumn span={{ sm: 6/12, md: 5/12 }}>
+          <RsvpColumn span={{ sm: 6 / 12, md: 5 / 12 }}>
             <ButtonLink href="http://paiva.rsvp.anna.eevert.love">
               Ilmoittaudun päiväjuhlaan
             </ButtonLink>
           </RsvpColumn>
-          <RsvpColumn span={{ sm: 6/12, md: 5/12 }}>
+          <RsvpColumn span={{ sm: 6 / 12, md: 5 / 12 }}>
             <ButtonLink href="http://ilta.rsvp.anna.eevert.love">
               Ilmoittaudun iltajuhlaan
             </ButtonLink>

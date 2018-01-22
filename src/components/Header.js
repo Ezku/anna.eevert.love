@@ -21,7 +21,6 @@ const Content = glamorous.div({
 const Home = glamorous.h1(
   {
     margin: 0,
-    marginBottom: `${scale(0)}px`,
   },
   ...headers.h1
 )
@@ -42,7 +41,7 @@ const And = glamorous.span({
 })
 
 const Nav = glamorous.nav({
-  marginBottom: `-${scale(1) - 1}px`,
+  marginBottom: 0,
 })
 
 const SecondaryLink = glamorous(Link)({
