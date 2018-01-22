@@ -21,6 +21,7 @@ const Content = glamorous.div({
 const Home = glamorous.h1(
   {
     margin: 0,
+    marginBottom: `${scale(-4)}px`,
   },
   ...headers.h1
 )

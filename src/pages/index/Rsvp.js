@@ -14,16 +14,16 @@ const Section = glamorous.section(
     minHeight: '100vh',
     paddingBottom: `${scale(5)}px`,
     // Match Headroom elementheight
-    paddingTop: '110px',
-    marginTop: '-110px',
+    paddingTop: '116px',
+    marginTop: '-116px',
   },
   narrow(bp => ({
-    paddingTop: '122px',
-    marginTop: '-122px',
+    paddingTop: '128px',
+    marginTop: '-128px',
   })),
   normal(bp => ({
-    paddingTop: '138px',
-    marginTop: '-138px',
+    paddingTop: '144px',
+    marginTop: '-144px',
   }))
 )
 
