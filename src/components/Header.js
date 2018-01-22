@@ -18,17 +18,27 @@ const Content = glamorous.div({
   textAlign: 'center',
 })
 
-const Home = glamorous.h1({
-  margin: 0,
-  marginBottom: `${scale(0)}px`,
-}, ...headers.h1)
+const Home = glamorous.h1(
+  {
+    margin: 0,
+    marginBottom: `${scale(0)}px`,
+  },
+  ...headers.h1
+)
 
 const MainLink = glamorous(Link)({
   color: 'rgba(0, 0, 0, 0.8)',
   textDecoration: 'none',
   ':visited': {
     color: 'rgba(0, 0, 0, 0.8)',
-  }
+  },
+})
+
+const And = glamorous.span({
+  fontSize: '1.27em',
+  color: 'rgba(0, 0, 0, 0.7)',
+  verticalAlign: 'bottom',
+  margin: '0 -0.1em',
 })
 
 const Nav = glamorous.nav({
@@ -55,7 +65,7 @@ const Header = () => (
       <Content>
         <Home>
           <MainLink to="/">
-            Anna & Eevert
+            Anna <And>&</And> Eevert
           </MainLink>
         </Home>
         <Nav>
