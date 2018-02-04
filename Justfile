@@ -19,3 +19,12 @@ build: clean
 
 deploy: build
   netlify deploy --path {{build_path}} --site-id {{site_id}}
+
+convert-to-hero input output:
+  convert \
+    "{{ input }}" \
+    -quality 75 \
+    -geometry 2880x1920^ \
+    -gravity center \
+    -crop 2880x1920+0+0 \
+    "{{ output }}"
