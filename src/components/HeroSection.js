@@ -5,23 +5,10 @@ import scale from '../utils/scale'
 import { narrow, normal } from '../utils/breakpoints'
 import { headers } from '../utils/typography'
 
-const Section = glamorous.section(
-  {
-    minHeight: '100vh',
-    paddingBottom: `${scale(5)}px`,
-    // Match Headroom elementheight
-    paddingTop: '116px',
-    marginTop: '-116px',
-  },
-  narrow(bp => ({
-    paddingTop: '128px',
-    marginTop: '-128px',
-  })),
-  normal(bp => ({
-    paddingTop: '144px',
-    marginTop: '-144px',
-  }))
-)
+const Section = glamorous.section({
+  minHeight: '100vh',
+  paddingBottom: `${scale(5)}px`,
+})
 
 const HeroContainer = glamorous.div(
   {
