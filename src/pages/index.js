@@ -16,6 +16,12 @@ export default () => (
     <HeroSection id="rsvp" header="RSVP" hero={hero3}>
       <Rsvp />
     </HeroSection>
+    <HeroSection id="presents" header="Ennen juhlaa" hero={hero2}>
+      <p>Lorem</p>
+    </HeroSection>
+    <HeroSection id="wedding" header="Juhla" hero={hero1}>
+      <p>Lorem</p>
+    </HeroSection>
     <Footer id="yhteystiedot" header="Yhteystiedot">
       <Contact />
     </Footer>
