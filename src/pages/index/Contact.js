@@ -100,7 +100,7 @@ export default function Contact() {
                 <DL>
                   <DT>Eevert</DT>
                   <DD>
-                    <Mailto>anna.m.torronen@gmail.com</Mailto>
+                    <Mailto>eevert.saukkokoski@gmail.com</Mailto>
                   </DD>
                   <DD>040-508-2297</DD>
                 </DL>
