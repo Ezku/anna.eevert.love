@@ -5,10 +5,7 @@ import { Container, Row, Col } from 'glamorous-grid'
 import scale from '../../utils/scale'
 import { narrow, normal } from '../../utils/breakpoints'
 import { headers } from '../../utils/typography'
-
-const Lede = glamorous.p({
-  marginBottom: `${scale(0)}px`,
-})
+import Lede from '../../components/Lede'
 
 const ButtonLink = glamorous.a({
   display: 'inline-block',
@@ -37,13 +34,7 @@ const RsvpColumn = glamorous(Col)({
 export default function Rsvp() {
   return (
     <Container>
-      <Row justifyContent="center">
-        <RsvpColumn span={{ xs: 1, md: 8 / 12, lg: 6 / 12 }}>
-          <Lede>
-            Oletko saapumassa päiväjuhlaan (alkaen klo 14) vai iltajuhlaan (alkaen klo 19)?
-          </Lede>
-        </RsvpColumn>
-      </Row>
+      <Lede>Oletko saapumassa päiväjuhlaan (alkaen klo 14) vai iltajuhlaan (alkaen klo 19)?</Lede>
       <Row justifyContent="center">
         <RsvpColumn span={{ sm: 6 / 12, md: 5 / 12 }}>
           <ButtonLink href="http://paiva.rsvp.anna.eevert.love">
