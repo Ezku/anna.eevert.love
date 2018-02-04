@@ -37,45 +37,59 @@ export const headers = {
   h1: [
     {
       fontSize: `${scale(3)}px`,
-      lineHeight: `${scale(4)}px`
-    }, narrow(bp => ({
+      lineHeight: `${scale(4)}px`,
+    },
+    narrow(bp => ({
       fontSize: `${scale(4)}px`,
       lineHeight: `${scale(5)}px`,
-      })
-    ), normal(bp => ({
+    })),
+    normal(bp => ({
       fontSize: `${scale(5)}px`,
       lineHeight: `${scale(6)}px`,
-      })
-    )
+    })),
   ],
   h2: [
     {
       fontSize: `${scale(2)}px`,
-      lineHeight: `${scale(2)}px`
-    }, narrow(bp => ({
+      lineHeight: `${scale(2)}px`,
+    },
+    narrow(bp => ({
       fontSize: `${scale(3)}px`,
       lineHeight: `${scale(3)}px`,
-      })
-    ), normal(bp => ({
+    })),
+    normal(bp => ({
       fontSize: `${scale(4)}px`,
       lineHeight: `${scale(4)}px`,
-      })
-    )
+    })),
   ],
   h3: [
     {
       fontSize: `${scale(1)}px`,
-      lineHeight: `${scale(2)}px`
-    }, narrow(bp => ({
+      lineHeight: `${scale(2)}px`,
+    },
+    narrow(bp => ({
       fontSize: `${scale(2)}px`,
       lineHeight: `${scale(3)}px`,
-      })
-    ), normal(bp => ({
+    })),
+    normal(bp => ({
       fontSize: `${scale(3)}px`,
       lineHeight: `${scale(4)}px`,
-      })
-    )
-  ]
+    })),
+  ],
+  h4: [
+    {
+      fontSize: `${scale(0)}px`,
+      lineHeight: `${scale(1)}px`,
+    },
+    narrow(bp => ({
+      fontSize: `${scale(1)}px`,
+      lineHeight: `${scale(2)}px`,
+    })),
+    normal(bp => ({
+      fontSize: `${scale(2)}px`,
+      lineHeight: `${scale(3)}px`,
+    })),
+  ],
 }
 
 export default typography
