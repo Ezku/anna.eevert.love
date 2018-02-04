@@ -19,6 +19,7 @@ const HeroContainer = glamorous.div(
     backgroundClip: 'content-box',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 35%',
+    borderTop: '3px double rgba(0,0,0,0.25)',
     borderBottom: '3px double black',
   },
   ({ hero }) => ({
