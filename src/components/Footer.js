@@ -1,8 +1,6 @@
 import React from 'react'
 import glamorous from 'glamorous'
 
-import Content from './Content'
-
 import scale from '../utils/scale'
 import { headers } from '../utils/typography'
 
@@ -35,9 +33,7 @@ export default function Footer(props) {
       <Header>
         <H2>{header}</H2>
       </Header>
-      <Background>
-        <Content>{children}</Content>
-      </Background>
+      <Background>{children}</Background>
     </footer>
   )
 }

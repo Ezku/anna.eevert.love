@@ -2,7 +2,6 @@ import React from 'react'
 import glamorous from 'glamorous'
 import { Container, Row, Col } from 'glamorous-grid'
 
-import Content from '../../components/Content'
 import scale from '../../utils/scale'
 import { narrow, normal } from '../../utils/breakpoints'
 import { headers } from '../../utils/typography'
