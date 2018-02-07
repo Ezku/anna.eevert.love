@@ -7,7 +7,7 @@
     "gatsby": "^1.9.73",
     "gatsby-link": "^1.6.36",
     "gatsby-plugin-glamor": "^1.6.9",
-    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-react-helmet": "^2.0.4",
     "gatsby-plugin-typography": "^1.7.10",
     "glamorous": "^4.11.0",
     "glamorous-grid": "^1.0.2",
