@@ -3,6 +3,9 @@ import Typography from 'typography'
 import scale from './scale'
 import { narrow, normal } from './breakpoints'
 
+export const headerFontFamily = ['Playfair Display', 'serif']
+export const bodyFontFamily = ['Overpass Mono', 'monospace']
+
 const typography = new Typography({
   baseFontSize: '16px',
   baseLineHeight: 1.648,
@@ -17,12 +20,12 @@ const typography = new Typography({
       styles: ['300', '500', '700'],
     },
   ],
-  headerFontFamily: ['Playfair Display', 'serif'],
-  bodyFontFamily: ['Overpass Mono', 'monospace'],
+  headerFontFamily: headerFontFamily,
+  bodyFontFamily: bodyFontFamily,
   bodyColor: 'hsla(0,0%,0%,0.8)',
   headerWeight: 700,
-  bodyWeight: 300,
-  boldWeight: 500,
+  bodyWeight: 500,
+  boldWeight: 700,
   overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     a: {
       color: '#0071bc',

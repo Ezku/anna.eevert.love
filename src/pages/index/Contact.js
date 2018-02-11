@@ -3,17 +3,12 @@ import glamorous from 'glamorous'
 import { Container, Row, Col } from 'glamorous-grid'
 
 import scale from '../../utils/scale'
-import { headers } from '../../utils/typography'
+import { Section, H3, P, A, DL, DD, DT } from '../../components/Typography'
 
-const H3 = glamorous.h3(
-  {
-    display: 'block',
-    padding: `${scale(-3)}px ${scale(-5)}px`,
-    borderBottom: '3px double black',
-    marginBottom: `${scale(0)}px`,
-  },
-  headers.h3
-)
+const FullWidthH3 = glamorous(H3)({
+  display: 'block',
+  borderBottom: '3px double black',
+})
 
 const ContactCol = glamorous(Col)({
   marginBottom: `${scale(2)}px`,
@@ -28,30 +23,16 @@ const ContactBox = glamorous.div({
   boxShadow: '0 5px 15px 0 hsla(0,0%,4%,.9), 0 0 15px 0 hsla(0,0%,4%,.45)',
 })
 
-const P = glamorous.p({
-  marginBottom: `${scale(0)}px`,
-})
+const Mailto = ({ children }) => <A href={`mailto:${children}`}>{children}</A>
 
-const DL = glamorous.dl({
-  marginBottom: `${scale(0)}px`,
-})
-
-const DT = glamorous.dt({
-  fontWeight: 'bold',
-  display: 'inline-block',
-})
-
-const DD = glamorous.dd({
-  margin: 0,
-  textIndent: '2ch',
+const ellipsis = {
   overflow: 'hidden',
   textOverflow: 'ellipsis',
   whiteSpace: 'nowrap',
   wordWrap: 'normal',
-})
+}
 
-const A = glamorous.a({})
-const Mailto = ({ children }) => <A href={`mailto:${children}`}>{children}</A>
+const EllipsisDD = glamorous(DD)(ellipsis)
 
 export default function Contact({ Footer }) {
   return (
@@ -59,41 +40,43 @@ export default function Contact({ Footer }) {
       <Row justifyContent="center">
         <ContactCol span={{ sm: 10 / 12, md: 6 / 12, lg: 5 / 12 }}>
           <ContactBox>
-            <H3>Hääpari</H3>
+            <FullWidthH3>Hääpari</FullWidthH3>
             <P>
               Ennakkotiedustelut järjestelyistä, lahjoista, aikataulusta jne, ellet halua yllättää.
             </P>
             <DL>
               <DT>Anna</DT>
-              <DD>
+              <EllipsisDD>
                 <Mailto>anna.m.torronen@gmail.com</Mailto>
-              </DD>
-              <DD>050-533-5993</DD>
+                <br />
+                050-5335-993
+              </EllipsisDD>
             </DL>
             <DL>
               <DT>Eevert</DT>
-              <DD>
+              <EllipsisDD>
                 <Mailto>eevert.saukkokoski@gmail.com</Mailto>
-              </DD>
-              <DD>040-508-2297</DD>
+                <br />
+                040-508-2297
+              </EllipsisDD>
             </DL>
           </ContactBox>
         </ContactCol>
         <ContactCol span={{ sm: 10 / 12, md: 6 / 12, lg: 5 / 12 }}>
           <ContactBox>
-            <H3>Hääesikunta</H3>
+            <FullWidthH3>Hääesikunta</FullWidthH3>
             <P>Kun haluat yllättää, tai jos hääpäivänä iskee hätä. :)</P>
             <DL>
               <DT>Best Lady</DT>
-              <DD>
+              <EllipsisDD>
                 <Mailto>anna.torvinen@gmail.com</Mailto>
-              </DD>
+              </EllipsisDD>
             </DL>
             <DL>
               <DT>Best Man</DT>
-              <DD>
+              <EllipsisDD>
                 <Mailto>otso.hannula@gmail.com</Mailto>
-              </DD>
+              </EllipsisDD>
             </DL>
           </ContactBox>
         </ContactCol>

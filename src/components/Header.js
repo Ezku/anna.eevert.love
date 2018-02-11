@@ -59,7 +59,7 @@ const SecondaryLink = glamorous(Link)({
   margin: `0 ${scale(1) / 2}px`,
 })
 
-const Header = () => (
+const Header = ({ children }) => (
   <Headroom>
     <Background>
       <Content>
@@ -68,10 +68,10 @@ const Header = () => (
             Anna <And>&</And> Eevert
           </MainLink>
         </Home>
-        <Nav>
-          <SecondaryLink to="/#rsvp">RSVP</SecondaryLink>
-          <SecondaryLink to="/#yhteystiedot">Yhteystiedot</SecondaryLink>
-        </Nav>
+        {children({
+          Nav,
+          Link: SecondaryLink,
+        })}
       </Content>
     </Background>
   </Headroom>
