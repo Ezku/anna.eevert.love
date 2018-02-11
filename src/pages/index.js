@@ -15,14 +15,23 @@ import Footer from '../components/Footer'
 
 export default () => (
   <div>
-    <Header />
+    <Header>
+      {({ Nav, Link }) => (
+        <Nav>
+          <Link to="#rsvp">RSVP</Link>
+          <Link to="#ennen">Ennen</Link>
+          <Link to="#juhla">Hääjuhla</Link>
+          <Link to="#yhteystiedot">Yhteystiedot</Link>
+        </Nav>
+      )}
+    </Header>
     <HeroSection id="rsvp" header="RSVP" hero={hero3}>
       <Rsvp />
     </HeroSection>
-    <HeroSection id="before" header="Ennen" hero={hero2}>
+    <HeroSection id="ennen" header="Ennen" hero={hero2}>
       <Before />
     </HeroSection>
-    <HeroSection id="wedding" header="Hääjuhla" hero={hero1}>
+    <HeroSection id="juhla" header="Hääjuhla" hero={hero1}>
       <Wedding />
     </HeroSection>
     <Footer id="yhteystiedot" header="Yhteystiedot">
