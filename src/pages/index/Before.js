@@ -24,14 +24,14 @@ export default function Before() {
         <dt>Häämatka ja sisustus</dt>
         <dd>
           Lähdemme pian hääjuhlan jälkeen interrail-matkalle halki Euroopan. Junaliput on jo
-          hankittu, mutta muuten matkasuunnitelmat ovat joustavat. Ostimme oman asunnon 2016, mutta
-          sisustus on vielä vähän vaiheessa. Kummankin projektin edistämisessä pienikin apu on
-          tervetullutta!
+          hankittu, mutta muuten matkasuunnitelmat ovat joustavat. Lisäksi ostimme oman asunnon
+          2016, mutta sisustus on vielä vähän vaiheessa. Kummankin projektin edistämisessä pienikin
+          apu on tervetullutta!
         </dd>
         <dd>
           Häämatkaa ja sisustushankintoja voit parhaiten tukea tilisiirrolla tilille{' '}
-          <code>FI90 1663 3500 0186 35</code>. Kirjoita viestiksi suosituksesi rahan käyttökohteesta
-          – esimerkiksi <cite>“Ouzoa Kreikan saaristossa”</cite> tai{' '}
+          <code>FI90 1663 3500 0186 35</code>. Kirjoita viestiksi suosituksesi käyttökohteesta –
+          esimerkiksi <cite>“ouzoa Kreikan saaristossa”</cite> tai{' '}
           <cite>“mukava sohva, jotta kelpaa tulla vieraisille”</cite>.
         </dd>
 
@@ -48,7 +48,7 @@ export default function Before() {
           <a href="https://goo.gl/5WHFXj" target="_blank">
             Stockmannille lahjalistan
           </a>{' '}
-          kestävistä ja tarpeellisista kodin pienhankinnoista.
+          kestävistä ja tarpeellisista kodin hankinnoista.
         </dd>
       </dl>
     </Container>

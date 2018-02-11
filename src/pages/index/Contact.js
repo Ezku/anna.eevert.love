@@ -68,7 +68,7 @@ export default function Contact({ Footer }) {
               <DD>
                 <Mailto>anna.m.torronen@gmail.com</Mailto>
               </DD>
-              <DD>050-533-5993</DD>
+              <DD>050-5335-993</DD>
             </DL>
             <DL>
               <DT>Eevert</DT>
