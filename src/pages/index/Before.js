@@ -1,7 +1,7 @@
 import React from 'react'
 import SingleColumnContent from '../../components/SingleColumnContent'
 
-import { Section, H3, P, A } from '../../components/Typography'
+import { Section, H3, P, A, DL, DD, DT } from '../../components/Typography'
 
 export default function Before() {
   return (
@@ -29,37 +29,39 @@ export default function Before() {
       </Section>
 
       <Section>
-        <dl>
-          <dt>Häämatka ja sisustus</dt>
-          <dd>
+        <DL>
+          <DT>Häämatka ja sisustus</DT>
+          <DD>
             Lähdemme pian hääjuhlan jälkeen interrail-matkalle halki Euroopan. Junaliput on jo
             hankittu, mutta muuten matkasuunnitelmat ovat joustavat. Lisäksi ostimme oman asunnon
             2016, mutta sisustus on vielä vähän vaiheessa. Kummankin projektin edistämisessä
             pienikin apu on tervetullutta!
-          </dd>
-          <dd>
+          </DD>
+          <DD>
             Häämatkaa ja sisustushankintoja voit parhaiten tukea tilisiirrolla tilille{' '}
             <code>FI90 1663 3500 0186 35</code>. Kirjoita viestiksi suosituksesi käyttökohteesta –
             esimerkiksi <cite>“ouzoa Kreikan saaristossa”</cite> tai{' '}
             <cite>“mukava sohva, jotta kelpaa tulla vieraisille”</cite>.
-          </dd>
-
-          <dt>Lahjakortit</dt>
-          <dd>
+          </DD>
+        </DL>
+        <DL>
+          <DT>Lahjakortit</DT>
+          <DD>
             Aineettomat lahjat erityisesti kulttuurin, elämysten ja hyvän ruoan merkeissä ovat aina
             iloinen yllätys – ja sitä parempi jos lupaudutte seuraksi!
-          </dd>
-
-          <dt>Kodin tarpeistoa</dt>
-          <dd>
+          </DD>
+        </DL>
+        <DL>
+          <DT>Kodin tarpeistoa</DT>
+          <DD>
             Tiedämme, että osa teistä antaa mieluiten käsinkosketeltavia lahjoja. Olemme
             valmistelleet teitä varten{' '}
             <A href="https://goo.gl/5WHFXj" target="_blank">
               Stockmannille lahjalistan
             </A>{' '}
             kestävistä ja tarpeellisista kodin hankinnoista.
-          </dd>
-        </dl>
+          </DD>
+        </DL>
       </Section>
     </SingleColumnContent>
   )
