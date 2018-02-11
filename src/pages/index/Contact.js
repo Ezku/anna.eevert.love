@@ -25,6 +25,15 @@ const ContactBox = glamorous.div({
 
 const Mailto = ({ children }) => <A href={`mailto:${children}`}>{children}</A>
 
+const ellipsis = {
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+  whiteSpace: 'nowrap',
+  wordWrap: 'normal',
+}
+
+const EllipsisDD = glamorous(DD)(ellipsis)
+
 export default function Contact({ Footer }) {
   return (
     <Container>
@@ -37,16 +46,16 @@ export default function Contact({ Footer }) {
             </P>
             <DL>
               <DT>Anna</DT>
-              <DD>
+              <EllipsisDD>
                 <Mailto>anna.m.torronen@gmail.com</Mailto>
-              </DD>
+              </EllipsisDD>
               <DD>050-5335-993</DD>
             </DL>
             <DL>
               <DT>Eevert</DT>
-              <DD>
+              <EllipsisDD>
                 <Mailto>eevert.saukkokoski@gmail.com</Mailto>
-              </DD>
+              </EllipsisDD>
               <DD>040-508-2297</DD>
             </DL>
           </ContactBox>
@@ -57,15 +66,15 @@ export default function Contact({ Footer }) {
             <P>Kun haluat yllättää, tai jos hääpäivänä iskee hätä. :)</P>
             <DL>
               <DT>Best Lady</DT>
-              <DD>
+              <EllipsisDD>
                 <Mailto>anna.torvinen@gmail.com</Mailto>
-              </DD>
+              </EllipsisDD>
             </DL>
             <DL>
               <DT>Best Man</DT>
-              <DD>
+              <EllipsisDD>
                 <Mailto>otso.hannula@gmail.com</Mailto>
-              </DD>
+              </EllipsisDD>
             </DL>
           </ContactBox>
         </ContactCol>

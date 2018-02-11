@@ -42,8 +42,4 @@ export const DT = glamorous.dt({
 export const DD = glamorous.dd({
   margin: 0,
   textIndent: '2ch',
-  overflow: 'hidden',
-  textOverflow: 'ellipsis',
-  whiteSpace: 'nowrap',
-  wordWrap: 'normal',
 })
