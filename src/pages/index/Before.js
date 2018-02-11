@@ -1,24 +1,26 @@
 import React from 'react'
 import SingleColumnContent from '../../components/SingleColumnContent'
 
+import { H3, P } from '../../components/Typography'
+
 export default function Before() {
   return (
     <SingleColumnContent>
-      <h2>Pukukoodi</h2>
-      <p>Tumma puku. Varaa tarvittaessa myös lämmintä mukaan.</p>
+      <H3>Pukukoodi</H3>
+      <P>Tumma puku. Varaa tarvittaessa myös lämmintä mukaan.</P>
 
-      <h2>Majoitus</h2>
-      <p>
+      <H3>Majoitus</H3>
+      <P>
         Ilmoittautuessasi <a href="#rsvp">yllä</a> voit kertoa mahdollisesta majoitustarpeesta.
         Pyrimme järjestämään ryhmäalennuksen johonkin Helsingin keskustan hotelleista ja olemme
         erikseen yhteydessä tästä.
-      </p>
+      </P>
 
-      <h2>Muistaminen</h2>
-      <p>
+      <H3>Muistaminen</H3>
+      <P>
         Tärkeintä meille on, että tulette juhlimaan kanssamme. Jos kuitenkin haluat muistaa meitä
         jotenkin, lahjatoiveemme löytyvät alta.
-      </p>
+      </P>
 
       <dl>
         <dt>Häämatka ja sisustus</dt>
