@@ -34,7 +34,9 @@ const RsvpColumn = glamorous(Col)({
 export default function Rsvp() {
   return (
     <Container>
-      <Lede>Oletko saapumassa päiväjuhlaan (alkaen klo 14) vai iltajuhlaan (alkaen klo 19)?</Lede>
+      <Lede>
+        Oletko saapumassa päiväosuuteen vai iltaosuuteen? (Tarkista kutsusta, jos et ole varma. :)
+      </Lede>
       <Row justifyContent="center">
         <RsvpColumn span={{ sm: 6 / 12, md: 4 / 12 }}>
           <ButtonLink href="http://paiva.rsvp.anna.eevert.love">
