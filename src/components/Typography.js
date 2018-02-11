@@ -29,3 +29,21 @@ export const A = glamorous.a({
   },
   borderBottom: '1px double #2980b9',
 })
+
+export const DL = glamorous.dl({
+  marginBottom: `${scale(0)}px`,
+})
+
+export const DT = glamorous.dt({
+  fontWeight: 'bold',
+  display: 'inline-block',
+})
+
+export const DD = glamorous.dd({
+  margin: 0,
+  textIndent: '2ch',
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+  whiteSpace: 'nowrap',
+  wordWrap: 'normal',
+})

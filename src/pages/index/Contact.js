@@ -3,7 +3,7 @@ import glamorous from 'glamorous'
 import { Container, Row, Col } from 'glamorous-grid'
 
 import scale from '../../utils/scale'
-import { Section, H3, P, A } from '../../components/Typography'
+import { Section, H3, P, A, DL, DD, DT } from '../../components/Typography'
 
 const FullWidthH3 = glamorous(H3)({
   display: 'block',
@@ -21,24 +21,6 @@ const ContactBox = glamorous.div({
   color: 'rgba(0, 0, 0, 0.8)',
   borderRadius: '3px',
   boxShadow: '0 5px 15px 0 hsla(0,0%,4%,.9), 0 0 15px 0 hsla(0,0%,4%,.45)',
-})
-
-const DL = glamorous.dl({
-  marginBottom: `${scale(0)}px`,
-})
-
-const DT = glamorous.dt({
-  fontWeight: 'bold',
-  display: 'inline-block',
-})
-
-const DD = glamorous.dd({
-  margin: 0,
-  textIndent: '2ch',
-  overflow: 'hidden',
-  textOverflow: 'ellipsis',
-  whiteSpace: 'nowrap',
-  wordWrap: 'normal',
 })
 
 const Mailto = ({ children }) => <A href={`mailto:${children}`}>{children}</A>
