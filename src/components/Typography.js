@@ -20,3 +20,12 @@ export const H3 = glamorous.h3(
 export const Section = glamorous.section({
   marginBottom: `${scale(2)}px`,
 })
+
+export const A = glamorous.a({
+  color: '#2980b9',
+  textDecoration: 'none',
+  ':visited': {
+    color: '#2980b9',
+  },
+  borderBottom: '1px double #2980b9',
+})

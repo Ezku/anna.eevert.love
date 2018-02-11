@@ -1,7 +1,7 @@
 import React from 'react'
 import SingleColumnContent from '../../components/SingleColumnContent'
 
-import { Section, H3, P } from '../../components/Typography'
+import { Section, H3, P, A } from '../../components/Typography'
 
 export default function Before() {
   return (
@@ -14,7 +14,7 @@ export default function Before() {
       <Section>
         <H3>Majoitus</H3>
         <P>
-          Ilmoittautuessasi <a href="#rsvp">yllä</a> voit kertoa mahdollisesta majoitustarpeesta.
+          Ilmoittautuessasi <A href="#rsvp">yllä</A> voit kertoa mahdollisesta majoitustarpeesta.
           Pyrimme järjestämään ryhmäalennuksen johonkin Helsingin keskustan hotelleista ja olemme
           erikseen yhteydessä tästä.
         </P>
@@ -54,9 +54,9 @@ export default function Before() {
           <dd>
             Tiedämme, että osa teistä antaa mieluiten käsinkosketeltavia lahjoja. Olemme
             valmistelleet teitä varten{' '}
-            <a href="https://goo.gl/5WHFXj" target="_blank">
+            <A href="https://goo.gl/5WHFXj" target="_blank">
               Stockmannille lahjalistan
-            </a>{' '}
+            </A>{' '}
             kestävistä ja tarpeellisista kodin hankinnoista.
           </dd>
         </dl>

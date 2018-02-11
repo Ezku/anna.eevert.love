@@ -1,7 +1,7 @@
 import React from 'react'
 import SingleColumnContent from '../../components/SingleColumnContent'
 
-import { Section, H3, P } from '../../components/Typography'
+import { Section, H3, P, A } from '../../components/Typography'
 
 export default function Wedding() {
   return (
@@ -37,7 +37,7 @@ export default function Wedding() {
         <P>
           Jos haluat pitää tilaisuudessa puheen tai järjestää muuta ohjelmaa, voit kertoa tästä
           ilmoittautumisen yhteydessä tai ottaa yhteyttä{' '}
-          <a href="#yhteystiedot">bestmaniin tai kaasoihin</a>.
+          <A href="#yhteystiedot">bestmaniin tai kaasoihin</A>.
         </P>
       </Section>
     </SingleColumnContent>
