@@ -26,9 +26,6 @@ export default function Before() {
           Tärkeintä meille on, että tulette juhlimaan kanssamme. Jos kuitenkin haluat muistaa meitä
           jotenkin, lahjatoiveemme löytyvät alta.
         </P>
-      </Section>
-
-      <Section>
         <DL>
           <DT>Häämatka ja sisustus</DT>
           <DD>
