@@ -41,6 +41,5 @@ export const DT = glamorous.dt({
 
 export const DD = glamorous.dd({
   margin: 0,
-  marginLeft: '2ch',
   marginBottom: `${scale(0)}px`,
 })
