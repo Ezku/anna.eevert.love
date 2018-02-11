@@ -28,9 +28,10 @@ export default function Before() {
         </dd>
         <dd>Ostimme oman asunnon 2016, mutta sisustus on vielä vähän vaiheessa.</dd>
         <dd>
-          Häämatkaa ja sisustushankintoja voit parhaiten tukea tilisiirrolla. Kirjoita viestiksi
-          suosituksesi rahan käyttökohteesta – esimerkiksi <cite>“Ouzoa Kreikan saaristossa”</cite>{' '}
-          tai <cite>“mukava sohva, jotta kelpaa tulla vieraisille”</cite>.
+          Häämatkaa ja sisustushankintoja voit parhaiten tukea tilisiirrolla tilille{' '}
+          <code>FI90 1663 3500 0186 35</code>. Kirjoita viestiksi suosituksesi rahan käyttökohteesta
+          – esimerkiksi <cite>“Ouzoa Kreikan saaristossa”</cite> tai{' '}
+          <cite>“mukava sohva, jotta kelpaa tulla vieraisille”</cite>.
         </dd>
 
         <dt>Lahjakortit</dt>
