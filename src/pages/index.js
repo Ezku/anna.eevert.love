@@ -1,6 +1,8 @@
 import React from 'react'
+
 import Rsvp from './index/Rsvp'
 import Before from './index/Before'
+import Wedding from './index/Wedding'
 import Contact from './index/Contact'
 
 import hero1 from './index/hero-8650.jpg'
@@ -20,8 +22,8 @@ export default () => (
     <HeroSection id="before" header="Ennen" hero={hero2}>
       <Before />
     </HeroSection>
-    <HeroSection id="wedding" header="Juhla" hero={hero1}>
-      <p>Lorem</p>
+    <HeroSection id="wedding" header="Hääjuhla" hero={hero1}>
+      <Wedding />
     </HeroSection>
     <Footer id="yhteystiedot" header="Yhteystiedot">
       <Contact />
