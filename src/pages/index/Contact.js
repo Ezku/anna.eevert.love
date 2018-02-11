@@ -48,15 +48,17 @@ export default function Contact({ Footer }) {
               <DT>Anna</DT>
               <EllipsisDD>
                 <Mailto>anna.m.torronen@gmail.com</Mailto>
+                <br />
+                050-5335-993
               </EllipsisDD>
-              <DD>050-5335-993</DD>
             </DL>
             <DL>
               <DT>Eevert</DT>
               <EllipsisDD>
                 <Mailto>eevert.saukkokoski@gmail.com</Mailto>
+                <br />
+                040-508-2297
               </EllipsisDD>
-              <DD>040-508-2297</DD>
             </DL>
           </ContactBox>
         </ContactCol>
