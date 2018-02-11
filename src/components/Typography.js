@@ -16,3 +16,7 @@ export const H3 = glamorous.h3(
   },
   headers.h3
 )
+
+export const Section = glamorous.section({
+  marginBottom: `${scale(2)}px`,
+})
