@@ -1,7 +1,7 @@
 import React from 'react'
 import SingleColumnContent from '../../components/SingleColumnContent'
 
-import { Section, H3, P, A, DL, DD, DT } from '../../components/Typography'
+import { Section, H3, P, A, DL, DD, DT, Code } from '../../components/Typography'
 
 export default function Before() {
   return (
@@ -36,7 +36,7 @@ export default function Before() {
           </DD>
           <DD>
             Häämatkaa ja sisustushankintoja voit parhaiten tukea tilisiirrolla tilille{' '}
-            <code>FI90 1663 3500 0186 35</code>. Kirjoita viestiksi suosituksesi käyttökohteesta –
+            <Code>FI90 1663 3500 0186 35</Code>. Kirjoita viestiksi suosituksesi käyttökohteesta –
             esimerkiksi <cite>“ouzoa Kreikan saaristossa”</cite> tai{' '}
             <cite>“mukava sohva, jotta kelpaa tulla vieraisille”</cite>.
           </DD>
