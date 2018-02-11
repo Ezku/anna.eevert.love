@@ -21,8 +21,8 @@ const typography = new Typography({
   bodyFontFamily: ['Overpass Mono', 'monospace'],
   bodyColor: 'hsla(0,0%,0%,0.8)',
   headerWeight: 700,
-  bodyWeight: 300,
-  boldWeight: 500,
+  bodyWeight: 500,
+  boldWeight: 700,
   overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     a: {
       color: '#0071bc',
