@@ -1,11 +1,15 @@
 import React from 'react'
-import { Container } from 'glamorous-grid'
+import SingleColumnContent from '../../components/SingleColumnContent'
 
 export default function Wedding() {
   return (
-    <Container>
+    <SingleColumnContent>
       <h2>Juhlapaikka</h2>
-      <p>Villa Smeds, Kauppalaivurintie 5 (ent. Vanha Nurmijärventie 45) 01670 Vantaa</p>
+      <p>
+        Villa Smeds<br />
+        Kauppalaivurintie 5<br />
+        01670 Vantaa
+      </p>
 
       <h2>Saapuminen</h2>
       <p>
@@ -28,6 +32,6 @@ export default function Wedding() {
         ilmoittautumisen yhteydessä tai ottaa yhteyttä{' '}
         <a href="#yhteystiedot">bestmaniin tai kaasoihin</a>.
       </p>
-    </Container>
+    </SingleColumnContent>
   )
 }

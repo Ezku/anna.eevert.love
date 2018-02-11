@@ -1,9 +1,9 @@
 import React from 'react'
-import { Container } from 'glamorous-grid'
+import SingleColumnContent from '../../components/SingleColumnContent'
 
 export default function Before() {
   return (
-    <Container>
+    <SingleColumnContent>
       <h2>Pukukoodi</h2>
       <p>Tumma puku. Varaa tarvittaessa myös lämmintä mukaan.</p>
 
@@ -51,6 +51,6 @@ export default function Before() {
           kestävistä ja tarpeellisista kodin hankinnoista.
         </dd>
       </dl>
-    </Container>
+    </SingleColumnContent>
   )
 }
