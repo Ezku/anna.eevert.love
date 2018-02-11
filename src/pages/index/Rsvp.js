@@ -39,12 +39,14 @@ export default function Rsvp() {
       </Lede>
       <Row justifyContent="center">
         <RsvpColumn span={{ sm: 6 / 12, md: 4 / 12 }}>
-          <ButtonLink href="http://paiva.rsvp.anna.eevert.love">
-            Ilmoittaudun päiväjuhlaan
+          <ButtonLink href="http://paiva.rsvp.anna.eevert.love" target="_blank">
+            Saavun päiväosuuteen klo 14:00
           </ButtonLink>
         </RsvpColumn>
         <RsvpColumn span={{ sm: 6 / 12, md: 4 / 12 }}>
-          <ButtonLink href="http://ilta.rsvp.anna.eevert.love">Ilmoittaudun iltajuhlaan</ButtonLink>
+          <ButtonLink href="http://ilta.rsvp.anna.eevert.love" target="_blank">
+            Saavun iltaosuuteen klo 19:00
+          </ButtonLink>
         </RsvpColumn>
       </Row>
     </Container>
