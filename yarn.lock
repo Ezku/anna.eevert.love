@@ -3147,8 +3147,8 @@ gatsby-plugin-react-helmet@^1.0.8:
     react-helmet "^5.1.3"
 
 gatsby-plugin-typography@^1.7.10:
-  version "1.7.13"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-1.7.13.tgz#c653c1697f48327a33f15cc5fda87ee06384063b"
+  version "1.7.15"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-1.7.15.tgz#4e09bd78a2b52974505a19caaa906364a70f842c"
   dependencies:
     babel-runtime "^6.26.0"
     react-typography "^0.16.1"
