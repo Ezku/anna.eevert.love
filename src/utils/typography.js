@@ -105,6 +105,20 @@ export const headers = {
       lineHeight: `${scale(3)}px`,
     })),
   ],
+  h5: [
+    {
+      fontSize: `${scale(-1)}px`,
+      lineHeight: `${scale(1)}px`,
+    },
+    narrow(bp => ({
+      fontSize: `${scale(0)}px`,
+      lineHeight: `${scale(2)}px`,
+    })),
+    normal(bp => ({
+      fontSize: `${scale(1)}px`,
+      lineHeight: `${scale(3)}px`,
+    })),
+  ],
 }
 
 export default typography
