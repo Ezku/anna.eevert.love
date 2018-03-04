@@ -28,6 +28,9 @@ export const A = glamorous.a({
     color: '#2980b9',
   },
   borderBottom: '1px double #2980b9',
+  fontFamily: highlightFontFamily.join(', '),
+  fontSize: '0.8em',
+  fontWeight: 'bold',
 })
 
 export const DL = glamorous.dl({
