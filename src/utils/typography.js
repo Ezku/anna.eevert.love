@@ -3,8 +3,20 @@ import Typography from 'typography'
 import scale from './scale'
 import { narrow, normal } from './breakpoints'
 
+const systemFontStack = [
+  '-apple-system',
+  'BlinkMacSystemFont',
+  '"Segoe UI"',
+  'Roboto',
+  'Oxygen-Sans',
+  'Ubuntu',
+  'Cantarell',
+  '"Helvetica Neue"',
+  'sans-serif',
+]
 export const headerFontFamily = ['Playfair Display', 'serif']
-export const bodyFontFamily = ['Overpass Mono', 'monospace']
+export const bodyFontFamily = ['futura-pt', ...systemFontStack]
+export const highlightFontFamily = ['Overpass Mono', 'monospace']
 
 const typography = new Typography({
   baseFontSize: '16px',
@@ -24,8 +36,8 @@ const typography = new Typography({
   bodyFontFamily: bodyFontFamily,
   bodyColor: 'hsla(0,0%,0%,0.8)',
   headerWeight: 700,
-  bodyWeight: 500,
-  boldWeight: 700,
+  bodyWeight: 400,
+  boldWeight: 600,
   overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     a: {
       color: '#0071bc',
