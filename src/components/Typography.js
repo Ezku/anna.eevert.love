@@ -40,6 +40,8 @@ export const DL = glamorous.dl({
 export const DT = glamorous.dt({
   fontWeight: 'bold',
   display: 'inline-block',
+  fontSize: `${scale(1)}px`,
+  lineHeight: `${scale(2)}px`,
 })
 
 export const DD = glamorous.dd({
