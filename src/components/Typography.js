@@ -27,7 +27,7 @@ export const A = glamorous.a({
   ':visited': {
     color: '#2980b9',
   },
-  borderBottom: '1px double #2980b9',
+  borderBottom: '3px double #2980b9',
   fontFamily: highlightFontFamily.join(', '),
   fontSize: '0.8em',
   fontWeight: 'bold',
