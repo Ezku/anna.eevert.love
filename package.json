@@ -12,6 +12,7 @@
     "glamorous": "^4.11.0",
     "glamorous-grid": "^1.0.2",
     "react-headroom": "^2.2.2",
+    "react-typekit": "^1.1.2",
     "react-typography": "^0.16.5"
   },
   "keywords": [
