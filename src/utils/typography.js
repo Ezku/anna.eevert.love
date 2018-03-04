@@ -29,7 +29,7 @@ const typography = new Typography({
     },
     {
       name: 'Overpass Mono',
-      styles: ['300', '500', '700'],
+      styles: ['700'],
     },
   ],
   headerFontFamily: headerFontFamily,
