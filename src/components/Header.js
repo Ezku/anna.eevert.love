@@ -4,6 +4,7 @@ import Headroom from 'react-headroom'
 import glamorous from 'glamorous'
 import scale from '../utils/scale'
 import { headers } from '../utils/typography'
+import { narrow, normal } from '../utils/breakpoints'
 
 const Background = glamorous.div({
   background: 'white',
@@ -45,19 +46,31 @@ const Nav = glamorous.nav({
   marginBottom: 0,
 })
 
-const SecondaryLink = glamorous(Link)({
-  color: 'rgba(0, 0, 0, 0.8)',
-  textDecoration: 'none',
-  ':visited': {
+const SecondaryLink = glamorous(Link)(
+  {
     color: 'rgba(0, 0, 0, 0.8)',
+    textDecoration: 'none',
+    ':visited': {
+      color: 'rgba(0, 0, 0, 0.8)',
+    },
+    fontFamily: 'Overpass Mono',
+    fontWeight: 700,
+    borderBottom: '3px double black',
+    margin: `0 ${scale(1) / 2}px`,
   },
-  fontFamily: 'Overpass Mono',
-  fontWeight: 700,
-  borderBottom: '3px double black',
-  fontSize: `${scale(1)}px`,
-  lineHeight: `${scale(3)}px`,
-  margin: `0 ${scale(1) / 2}px`,
-})
+  {
+    fontSize: `${scale(-1)}px`,
+    lineHeight: `${scale(1)}px`,
+  },
+  narrow(bp => ({
+    fontSize: `${scale(0)}px`,
+    lineHeight: `${scale(2)}px`,
+  })),
+  normal(bp => ({
+    fontSize: `${scale(1)}px`,
+    lineHeight: `${scale(3)}px`,
+  }))
+)
 
 const Header = ({ children }) => (
   <Headroom>
