@@ -4,16 +4,18 @@ import { Container, Row, Col } from 'glamorous-grid'
 
 import scale from '../../utils/scale'
 import { narrow, normal } from '../../utils/breakpoints'
-import { headers } from '../../utils/typography'
+import { headers, highlightFontFamily } from '../../utils/typography'
 import Lede from '../../components/Lede'
 
 const ButtonLink = glamorous.a({
+  fontFamily: highlightFontFamily.join(', '),
   display: 'inline-block',
   padding: `${scale(2)}px ${scale(1)}px`,
   margin: `${scale(0)}px ${scale(0)}px`,
   background: 'white',
   textDecoration: 'none',
   borderBottom: '3px double black',
+  fontSize: `${scale(1)}px`,
   fontWeight: 'bold',
   color: 'rgba(0, 0, 0, 0.8)',
   borderRadius: '3px',
