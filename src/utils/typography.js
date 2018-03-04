@@ -19,7 +19,7 @@ export const bodyFontFamily = ['futura-pt', ...systemFontStack]
 export const highlightFontFamily = ['Overpass Mono', 'monospace']
 
 const typography = new Typography({
-  baseFontSize: '16px',
+  baseFontSize: '18px',
   baseLineHeight: 1.648,
   scaleRatio: 2.718,
   googleFonts: [
