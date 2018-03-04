@@ -1,5 +1,6 @@
 import React from 'react'
 import { TypographyStyle, GoogleFont } from 'react-typography'
+import Typekit from 'react-typekit'
 import typography from './utils/typography'
 
 let stylesStr
@@ -25,6 +26,7 @@ module.exports = class HTML extends React.Component {
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <TypographyStyle typography={typography} />
           <GoogleFont typography={typography} />
+          <Typekit kitId="uds2yjm" />
           {this.props.headComponents}
           {css}
         </head>
