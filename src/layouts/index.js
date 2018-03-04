@@ -6,7 +6,9 @@ import './index.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="anna.eevert.love" />
+    <Helmet>
+      <title>A&E 16.6.2018 | anna.eevert.love</title>
+    </Helmet>
     {children()}
   </div>
 )
