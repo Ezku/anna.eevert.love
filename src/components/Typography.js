@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
 
 import scale from '../utils/scale'
-import { headers, bodyFontFamily } from '../utils/typography'
+import { headers, bodyFontFamily, highlightFontFamily } from '../utils/typography'
 
 export const P = glamorous.p({
   marginBottom: `${scale(0)}px`,
@@ -47,6 +47,6 @@ export const DD = glamorous.dd({
 export const Code = glamorous.code({
   fontSize: `${scale(-1)}px`,
   lineHeight: `${scale(2)}px`,
-  fontFamily: bodyFontFamily.join(', '),
+  fontFamily: highlightFontFamily.join(', '),
   fontWeight: 'bold',
 })
