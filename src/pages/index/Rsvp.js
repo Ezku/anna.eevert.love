@@ -39,8 +39,9 @@ export default function Rsvp() {
   return (
     <Container>
       <Lede>
-        Oletko saapumassa päiväosuuteen vai iltaosuuteen?<br />(Tarkista kutsusta, jos et ole varma.
-        :)
+        Oletko saapumassa päiväosuuteen vai iltaosuuteen?
+        Tarkista kutsusta, jos et ole varma. :)
+        Ilmoitathan saapumisestasi <strong>16.5. mennessä!</strong>
       </Lede>
       <Row justifyContent="center">
         <RsvpColumn span={{ sm: 6 / 12, md: 4 / 12 }}>
