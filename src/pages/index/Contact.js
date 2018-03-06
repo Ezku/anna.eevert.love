@@ -3,7 +3,7 @@ import glamorous from 'glamorous'
 import { Container, Row, Col } from 'glamorous-grid'
 
 import scale from '../../utils/scale'
-import { Section, H3, P, A, DL, DD, DT } from '../../components/Typography'
+import { Section, H3, P, A, DL, DD, DT, UL, ULLI } from '../../components/Typography'
 
 const FullWidthH3 = glamorous(H3)({
   display: 'block',
@@ -67,16 +67,30 @@ export default function Contact({ Footer }) {
             <FullWidthH3>Hääesikunta</FullWidthH3>
             <P>Kun haluat yllättää, tai jos hääpäivänä iskee hätä. :)</P>
             <DL>
-              <DT>Best Lady</DT>
-              <EllipsisDD>
-                <Mailto>anna.torvinen@gmail.com</Mailto>
-              </EllipsisDD>
+              <DT>Kaasot</DT>
+              <DD>
+                <UL>
+                  <ULLI>
+                    Anna Torvinen <br />
+                    <Mailto>anna.torvinen@gmail.com</Mailto> <br />
+                    040-049-5979
+                  </ULLI>
+                  <ULLI>Satu Sahlstedt</ULLI>
+                </UL>
+              </DD>
             </DL>
             <DL>
-              <DT>Best Man</DT>
-              <EllipsisDD>
-                <Mailto>otso.hannula@gmail.com</Mailto>
-              </EllipsisDD>
+              <DT>Bestmanit</DT>
+              <DD>
+                <UL>
+                  <ULLI>
+                    Otso Hannula <br />
+                    <Mailto>otso.hannula@gmail.com</Mailto> <br />
+                    050-400-2145
+                  </ULLI>
+                  <ULLI>Merituuli Melkko</ULLI>
+                </UL>
+              </DD>
             </DL>
           </ContactBox>
         </ContactCol>
