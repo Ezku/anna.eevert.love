@@ -55,3 +55,13 @@ export const Code = glamorous.code({
   fontFamily: highlightFontFamily.join(', '),
   fontWeight: 'bold',
 })
+
+export const UL = glamorous.ul({
+  listStyleType: 'none',
+  margin: 0,
+  marginBottom: `${scale(2)}px`,
+})
+
+export const ULLI = glamorous.li({
+  marginBottom: `${scale(0)}px`,
+})
