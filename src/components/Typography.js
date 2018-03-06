@@ -34,7 +34,7 @@ export const A = glamorous.a({
 })
 
 export const DL = glamorous.dl({
-  marginBottom: `${scale(0)}px`,
+  marginBottom: `${scale(2)}px`,
 })
 
 export const DT = glamorous.dt({
