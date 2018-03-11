@@ -16,7 +16,8 @@ export default function Wedding() {
       <Section>
         <H3>Juhlapaikka</H3>
         <P>
-          Villa Smeds<br />
+          <strong>Villa Smeds</strong>
+          <br />
           Kauppalaivurintie 5<br />
           01670 Vantaa
         </P>
