@@ -39,9 +39,9 @@ export default function Rsvp() {
   return (
     <Container>
       <Lede>
-        Oletko saapumassa päiväosuuteen vai iltaosuuteen?
-        Tarkista kutsusta, jos et ole varma. :)
-        Ilmoitathan saapumisestasi <strong>1.5. mennessä!</strong>
+        Juhlimme <strong>lauantaina 16.6.2018</strong>. Ilmoittauduthan{' '}
+        <strong>1.5. mennessä</strong> kutsun mukaisesti joko päiväosuuteen tai iltaosuuteen, jotta
+        tekoälymme osaa kysyä oikeat kysymykset. Tarkista kutsusta, jos et ole varma. :)
       </Lede>
       <Row justifyContent="center">
         <RsvpColumn span={{ sm: 6 / 12, md: 4 / 12 }}>
