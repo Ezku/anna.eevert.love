@@ -7,6 +7,13 @@ export default function Wedding() {
   return (
     <SingleColumnContent>
       <Section>
+        <H3>Juhlapäivä</H3>
+        <P>
+          Juhlimme häitä <strong>lauantaina 16.6.2018</strong>, viikkoa ennen juhannusta.
+        </P>
+      </Section>
+
+      <Section>
         <H3>Juhlapaikka</H3>
         <P>
           Villa Smeds<br />
