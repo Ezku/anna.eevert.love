@@ -13,6 +13,12 @@ export default function Wedding() {
           Kauppalaivurintie 5<br />
           01670 Vantaa
         </P>
+        <P>
+          Miljöön tapahtumalle tarjoaa kauniin rustiikkinen{' '}
+          <A href="http://www.villasmeds.fi/">Villa Smeds</A>, jossa juhlimme sekä ulko- että
+          sisätiloissa. Maalaisidyllimaisemaa voit halutessasi käyttää innoituksena pukeutumista
+          suunnitellessa. :)
+        </P>
       </Section>
 
       <Section>
