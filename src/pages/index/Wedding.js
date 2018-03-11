@@ -37,7 +37,7 @@ export default function Wedding() {
         <P>
           Jos haluat pitää tilaisuudessa puheen tai järjestää muuta ohjelmaa, voit kertoa tästä
           ilmoittautumisen yhteydessä tai ottaa yhteyttä{' '}
-          <A href="#yhteystiedot">bestmaniin tai kaasoihin</A>.
+          <A href="#yhteystiedot">kaasoihin tai bestmaneihin</A>.
         </P>
       </Section>
     </SingleColumnContent>
