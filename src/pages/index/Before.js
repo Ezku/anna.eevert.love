@@ -8,7 +8,10 @@ export default function Before() {
     <SingleColumnContent>
       <Section>
         <H3>Pukukoodi</H3>
-        <P>Tumma puku. Varaa tarvittaessa myös lämmintä mukaan.</P>
+        <P>
+          Kesäinen puku. Varaa sään mukaisesti tarvittaessa myös lämmintä mukaan. (Katso myös{' '}
+          <A href="#juhlapaikka">juhlapaikka</A>!)
+        </P>
       </Section>
 
       <Section>

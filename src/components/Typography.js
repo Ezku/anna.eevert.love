@@ -33,6 +33,12 @@ export const A = glamorous.a({
   fontWeight: 'bold',
 })
 
+export const Anchor = glamorous.a({
+  color: 'inherit',
+  textDecoration: 'none',
+  borderBottom: 'none',
+})
+
 export const DL = glamorous.dl({
   marginBottom: `${scale(2)}px`,
 })

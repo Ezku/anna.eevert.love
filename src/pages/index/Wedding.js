@@ -1,17 +1,32 @@
 import React from 'react'
 import SingleColumnContent from '../../components/SingleColumnContent'
 
-import { Section, H3, P, A } from '../../components/Typography'
+import { Section, H3, P, A, Anchor } from '../../components/Typography'
 
 export default function Wedding() {
   return (
     <SingleColumnContent>
       <Section>
-        <H3>Juhlapaikka</H3>
+        <H3>Juhlapäivä</H3>
         <P>
-          Villa Smeds<br />
+          Juhlimme häitä <strong>lauantaina 16.6.2018</strong>, viikkoa ennen juhannusta.
+        </P>
+      </Section>
+
+      <Section>
+        <H3>
+          <Anchor name="juhlapaikka">Juhlapaikka</Anchor>
+        </H3>
+        <P>
+          <strong>Villa Smeds</strong>
+          <br />
           Kauppalaivurintie 5<br />
           01670 Vantaa
+        </P>
+        <P>
+          Miljöön tapahtumalle tarjoaa kauniin rustiikkinen{' '}
+          <A href="http://www.villasmeds.fi/">Villa Smeds</A>, jossa juhlimme sekä ulko- että
+          sisätiloissa. Voit halutessasi käyttää maalaisidylliä innoituksena pukeutumiseen.
         </P>
       </Section>
 
@@ -37,7 +52,7 @@ export default function Wedding() {
         <P>
           Jos haluat pitää tilaisuudessa puheen tai järjestää muuta ohjelmaa, voit kertoa tästä
           ilmoittautumisen yhteydessä tai ottaa yhteyttä{' '}
-          <A href="#yhteystiedot">bestmaniin tai kaasoihin</A>.
+          <A href="#yhteystiedot">kaasoihin tai bestmaneihin</A>.
         </P>
       </Section>
     </SingleColumnContent>
