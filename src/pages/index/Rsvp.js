@@ -40,7 +40,7 @@ export default function Rsvp() {
     <Container>
       <Lede>
         Juhlimme <strong>lauantaina 16.6.2018</strong>. Ilmoittauduthan{' '}
-        <strong>1.5. mennessä</strong> kutsun mukaisesti joko päiväosuuteen tai iltaosuuteen. Tarkista kutsusta, jos et ole varma. :)
+        <strong>1.5. mennessä</strong> kutsun mukaisesti joko päiväosuuteen tai iltaosuuteen. Tarkista kutsusta, jos et ole varma.
       </Lede>
       <Row justifyContent="center">
         <RsvpColumn span={{ sm: 6 / 12, md: 4 / 12 }}>
