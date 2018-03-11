@@ -26,8 +26,7 @@ export default function Wedding() {
         <P>
           Miljöön tapahtumalle tarjoaa kauniin rustiikkinen{' '}
           <A href="http://www.villasmeds.fi/">Villa Smeds</A>, jossa juhlimme sekä ulko- että
-          sisätiloissa. Maalaisidyllimaisemaa voit halutessasi käyttää innoituksena pukeutumista
-          suunnitellessa. :)
+          sisätiloissa. Voit halutessasi käyttää maalaisidylliä innoituksena pukeutumiseen.
         </P>
       </Section>
 
