@@ -1,7 +1,7 @@
 import React from 'react'
 import SingleColumnContent from '../../components/SingleColumnContent'
 
-import { Section, H3, P, A } from '../../components/Typography'
+import { Section, H3, P, A, Anchor } from '../../components/Typography'
 
 export default function Wedding() {
   return (
@@ -14,7 +14,9 @@ export default function Wedding() {
       </Section>
 
       <Section>
-        <H3>Juhlapaikka</H3>
+        <H3>
+          <Anchor name="juhlapaikka">Juhlapaikka</Anchor>
+        </H3>
         <P>
           <strong>Villa Smeds</strong>
           <br />
