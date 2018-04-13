@@ -9,7 +9,7 @@
     "gatsby-plugin-glamor": "^1.6.9",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-typography": "^1.7.18",
-    "glamorous": "^4.12.2",
+    "glamorous": "^4.12.3",
     "glamorous-grid": "^1.0.2",
     "react-headroom": "^2.2.2",
     "react-typekit": "^1.1.3",
