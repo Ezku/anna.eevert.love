@@ -3191,9 +3191,9 @@ gatsby-react-router-scroll@^1.0.14:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby@^1.9.248:
-  version "1.9.248"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.248.tgz#1bcc7e4267682cc779b8b5c33d8fb29f31d5f01b"
+gatsby@^1.9.251:
+  version "1.9.251"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.251.tgz#52bdb725ddaafeb508c605e15d7ce6e11db405b9"
   dependencies:
     async "^2.1.2"
     babel-code-frame "^6.22.0"
