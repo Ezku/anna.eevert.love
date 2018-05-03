@@ -3392,9 +3392,9 @@ glamorous-grid@^1.0.2:
   dependencies:
     fbjs "0.8.14"
 
-glamorous@^4.12.4:
-  version "4.12.4"
-  resolved "https://registry.yarnpkg.com/glamorous/-/glamorous-4.12.4.tgz#95a6ef0b9ceae7d64082fbbae5b0b5109dbe901b"
+glamorous@^4.12.5:
+  version "4.12.5"
+  resolved "https://registry.yarnpkg.com/glamorous/-/glamorous-4.12.5.tgz#909e0ec2ab3136e4749bf82edd9f33b51745e41f"
   dependencies:
     brcast "^3.0.0"
     csstype "^2.2.0"
