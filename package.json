@@ -13,7 +13,7 @@
     "glamorous-grid": "^1.0.2",
     "react-headroom": "^2.2.4",
     "react-typekit": "^1.1.3",
-    "react-typography": "^0.16.5"
+    "react-typography": "^0.16.20"
   },
   "keywords": [
     "gatsby"
